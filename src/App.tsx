@@ -127,7 +127,7 @@ function Connected({ web3, address }: { web3: Web3; address: string }) {
       <h2>Current address: {address}</h2>
       <Balance address={address} web3={web3} />
       <Sign address={address} web3={web3} />
-      <RecentTransactions limit={2} address={address} />
+      <RecentTransactions limit={5} address={address} />
     </div>
   )
 }
